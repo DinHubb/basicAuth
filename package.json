@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.9.0",
+    "pinia": "^2.1.7",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.0",
+    "vue": "^3.4.5",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "cookie-universal": "^2.2.2"
+  }
+}
