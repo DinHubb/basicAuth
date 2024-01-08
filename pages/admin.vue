@@ -43,15 +43,12 @@ const deleteUsers = async (userId) => {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // Assuming you want to update the users array after deletion
-        // You might want to filter out the deleted user or fetch the updated list again
         users.value = users.value.filter(user => user._id !== userId);
 
         console.log(`User with ID ${userId} deleted successfully`);
     } catch (error) {
         console.error('Error:', error);
     }
-    console.log(users.value.length);
 }
 </script>
 
